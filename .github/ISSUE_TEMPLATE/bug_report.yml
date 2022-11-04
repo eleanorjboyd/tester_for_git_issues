@@ -19,8 +19,12 @@ body:
         required: true
   - type: textarea
     attributes:
-      label: VSCode Version
+      label: Versions
       description: 
+      value: |
+      - VSCode Version
+      - Local OS Version
+      - Remote OS Version
     validations:
       required: true
   - type: textarea
