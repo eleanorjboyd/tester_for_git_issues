@@ -3,7 +3,7 @@ description: File a bug/issue for the Remote-SSH extension
 title: "[Remote-SSH BUG]: "
 labels: ["ssh"]
 body:
-- type: markdown
+  - type: markdown
     attributes:
       value: |
         Thanks for filling out a bug issue and helping improve the Remote-SSH extension! 
