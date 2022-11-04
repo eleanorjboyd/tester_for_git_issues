@@ -56,11 +56,7 @@ body:
     attributes:
       label: Remote-SSH Logs
       description:  You can find them through going to the terminal on your remote VS Code window then selecting the tab output then select remote-ssh from the dropdown
-      value: |
-          - OS:
-          - Node:
-          - npm:
-      render: markdown
+      render: bash
     validations:
       required: true
   - type: dropdown
