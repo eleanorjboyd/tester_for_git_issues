@@ -1,5 +1,15 @@
-
-name: Remote-SSH Bug
-description: File a bug/issue for the Remote-SSH extension
-title: "[Remote-SSH BUG] <title>"
-labels: [Bug, Needs Triage, ssh]
+name: Sample form
+description: Create an issue. 
+title: "[Bug]: "
+labels: [bug]
+assignees:
+  - octocat
+body:
+  - type: input
+    id: sample-input
+    attributes:
+      label: Sample Input
+      description: Write text here.
+      placeholder: Here will be text
+    validations:
+      required: true
