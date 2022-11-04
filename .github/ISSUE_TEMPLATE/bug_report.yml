@@ -21,9 +21,11 @@ body:
       description: Please go through this debugging help document and follow all the required steps, https://code.visualstudio.com/docs/remote/troubleshooting.
       options:
       - label: I have following these debugging steps
-      - label: My SSH command works from the local terminal with extensions enabled
+        required: true
       - label: I have tried both settings on remote.SSH.useLocalServer
         required: true
+      - label: My SSH command works from the local terminal 
+      - label: My SSH command works from the local terminal with extensions enabled
   - type: textarea
     attributes:
       label: Versions
