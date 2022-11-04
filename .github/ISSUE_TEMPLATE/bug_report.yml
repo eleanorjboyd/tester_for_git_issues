@@ -57,7 +57,7 @@ body:
       label: logs
       description: non1
       value: |
-      <details> hi </details>
+      "<details> hi </details>"
     validations:
       required: false
   - type: textarea
