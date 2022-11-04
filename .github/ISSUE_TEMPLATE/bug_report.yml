@@ -56,7 +56,10 @@ body:
     attributes:
       label: logs
       description: non1
-      value: "##hi"
+      value: |
+      <details><summary>World</summary><blockquote>
+      :smile:
+      </blockquote></details>
     validations:
       required: false
   - type: textarea
