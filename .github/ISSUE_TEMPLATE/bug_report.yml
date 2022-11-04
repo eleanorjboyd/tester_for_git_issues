@@ -38,18 +38,6 @@ body:
       required: true
   - type: textarea
     attributes:
-      label: Local OS Version
-      description: 
-    validations:
-      required: true
-  - type: textarea
-    attributes:
-      label: Remote OS Version
-      description: 
-    validations:
-      required: true
-  - type: textarea
-    attributes:
       label: Expected Behavior
       description: A concise description of what you expected to happen.
     validations:
@@ -67,34 +55,11 @@ body:
       required: false
   - type: textarea
     attributes:
-      label: logs
-      description: non1
-      value: "<details> hi </details>"
-    validations:
-      required: false
-  - type: textarea
-    attributes:
       label: Remote-SSH Logs
       description:  You can find them through going to the terminal on your remote VS Code window then selecting the tab output then select remote-ssh from the dropdown
       render: bash
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: Does this issue occur when you try this locally?
-      description: To do this, run the same SSH connection command outside of VS Code in a separate shell like Terminal or PowerShell.
-       If your SSH connection still does not work when you try the same command locally it probably has to do with your SSH connection and not with our remote-SSH extension. 
-      options:
-          - yes it work locally
-          - no, it doesn't work locally
-  - type: dropdown
-    attributes:
-      label: Does this issue occur when you try this locally AND all extensions are disabled?
-      description: To do this, run the same SSH connection command outside of VS Code in a separate shell like Terminal or PowerShell.
-       If your SSH connection still does not work when you try the same command this way it likely relates to a extension issue. 
-      options:
-          - yes it work locally
-          - no, it doesn't work locally
   - type: textarea
     attributes:
       label: Anything else?
