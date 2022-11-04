@@ -55,8 +55,8 @@ body:
   - type: textarea
     attributes:
       label: Remote-SSH Logs
-      description:  You can find them through going to the `terminal` on your remote VS Code 
-      window then selecting the tab `output` then select `remote-ssh` from the dropdown
+      description:  You can find them through going to the terminal on your remote VS Code 
+      window then selecting the tab output then select remote-ssh from the dropdown
       value: |
           - OS:
           - Node:
@@ -80,13 +80,6 @@ body:
       options:
           - yes it work locally
           - no, it doesn't work locally
-  - type: checkboxes
-    attributes:
-      label: Did you check the troubleshooting docs?
-      description: [troubleshoot docs](https://code.visualstudio.com/docs/remote/troubleshooting)
-      options:
-      - label: I have checked the docs
-        required: true
   - type: textarea
     attributes:
       label: Anything else?
