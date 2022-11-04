@@ -1,7 +1,7 @@
 name: Remote-SSH Bug
 description: File a bug/issue for the Remote-SSH extension
 title: "[Remote-SSH BUG]: "
-labels: [Bug, Needs Triage, ssh]
+labels: ["ssh"]
 body:
 	- type: checkboxes
 	  attributes:
