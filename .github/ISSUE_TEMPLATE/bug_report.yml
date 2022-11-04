@@ -22,7 +22,7 @@ body:
       options:
       - label: I have following these debugging steps
         required: true
-      - label: I have tried both settings on remote.SSH.useLocalServer
+      - label: I have tried both settings on `remote.SSH.useLocalServer`
         required: true
       - label: My SSH command works from the local terminal 
       - label: My SSH command works from the local terminal with extensions enabled
