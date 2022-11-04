@@ -58,7 +58,7 @@ body:
       description: non1
       value: |
       <details><summary>World</summary><blockquote>
-      :smile:
+      hi
       </blockquote></details>
     validations:
       required: false
