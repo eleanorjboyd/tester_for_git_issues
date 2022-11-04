@@ -22,9 +22,10 @@ body:
       label: Versions
       description: 
       value: |
-      - VSCode Version
-      - Local OS Version
-      - Remote OS Version
+        1.
+        2.
+        3.
+        ...
     validations:
       required: true
   - type: textarea
