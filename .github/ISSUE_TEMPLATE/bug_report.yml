@@ -53,6 +53,19 @@ body:
     validations:
       required: false
   - type: textarea
+  attributes:
+    label: logs
+    description: |
+      examples:
+        - **OS**: Ubuntu 20.04
+        - **Node**: 13.14.0
+        - **npm**: 7.6.3
+    value: |
+        - OS:
+        - Node:
+        - npm:
+    render: markdown
+  - type: textarea
     attributes:
       label: Remote-SSH Logs
       description:  You can find them through going to the terminal on your remote VS Code window then selecting the tab output then select remote-ssh from the dropdown
