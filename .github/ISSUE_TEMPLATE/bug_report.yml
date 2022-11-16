@@ -60,19 +60,19 @@ body:
       value: |
         <details>
 
-<summary>User Settings</summary>
+        <summary>User Settings</summary>
 
-<p>
+        <p>
 
-```
+        ```
 
-condaPath: "<placeholder>"
+        condaPath: "<placeholder>"
 
 
-```
+        ```
 
-</p>
-</details>
+        </p>
+        </details>
     validations:
       required: true
   - type: textarea
