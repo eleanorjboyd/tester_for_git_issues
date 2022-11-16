@@ -40,7 +40,6 @@ body:
     attributes:
       label: Expected Behavior
       description: A concise description of what you expected to happen.
-eleanorjboyd marked this conversation as resolved.
     validations:
       required: false
   - type: textarea
