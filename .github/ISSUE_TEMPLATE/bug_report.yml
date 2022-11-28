@@ -30,7 +30,7 @@ body:
       - label: I can connect using the Remote-SSH extension on VS Code when all other VS Code extensions are disabled
   - type: textarea
     attributes:
-      label: Expand on Above Checkboxes
+      label: 
       description: If you did not check any box or if there was a difference in behavior when toggling either user setting please elaborate here.
     validations:
       required: false
