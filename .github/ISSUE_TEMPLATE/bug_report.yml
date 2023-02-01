@@ -13,6 +13,7 @@ body:
     attributes:
       label: Is there an existing issue for this bug?
       description: Please search to see if an open or closed issue already exists for the bug you encountered? Link to search, 
+      options:
       - label: I have searched the existing issues
         required: true 
   - type: checkboxes
