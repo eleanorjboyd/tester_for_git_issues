@@ -24,16 +24,14 @@ body:
       - label: I have followed these debugging steps
         required: true
       - label: I have tried both values of the `remote.SSH.useLocalServer` setting
-        required: true
-      - label: I can connect using the Remote-SSH extension on VS Code when all other VS Code extensions are disabled
   - type: dropdown
     attributes:
       label: Connect Locally
       description: When you tried running the ssh connection command in your terminal what was the outcome? (please verify this connection command is exactly the same as the one in the logs labeled “Running SSH connection command”)
       options:
         - It connects successfully
-        - It doesn’t connect successfully (same error)
-        - It doesn’t connect successfully (different error)
+        - It doesn’t connect successfully (same error message)
+        - It doesn’t connect successfully (different error message)
     validations:
       required: true
   - type: dropdown
@@ -42,14 +40,14 @@ body:
       description: With extensions disable did this a connection issue occur?
       options:
         - It connects successfully
-        - It doesn’t connect successfully (same error)
-        - It doesn’t connect successfully (different error)
+        - It doesn’t connect successfully (same error message)
+        - It doesn’t connect successfully (different error message)
     validations:
       required: true
   - type: textarea
     attributes:
       label: ->
-      description: If you did not check any box or if there was a difference in behavior when toggling `remote.SSH.useLocalServer` please elaborate here.
+      description: If your connection had a different error message when trying one of the above steps or if there was an impact by the `remote.SSH.useLocalServer` setting please elaborate here.
     validations:
       required: false
   - type: textarea
