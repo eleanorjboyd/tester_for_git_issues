@@ -1,0 +1,9 @@
+{
+    "editor.scrollBeyondLastLine": false,
+
+"notebook.insertToolbarLocation": "hidden",
+"notebook.cellToolbarLocation": {
+    "default": "hidden"
+},
+"cSpell.enabled": true,
+}
