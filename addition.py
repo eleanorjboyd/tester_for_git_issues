@@ -1,5 +1,5 @@
 
-#add two numbers, x and y
+#add two numbers
 def add(x,y):
     return x+y
  
